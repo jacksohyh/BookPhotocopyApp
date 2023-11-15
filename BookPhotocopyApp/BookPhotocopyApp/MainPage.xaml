@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BookPhotocopyApp.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header Frame with Button -->
+        <Frame BackgroundColor="#2196F3" Padding="1" CornerRadius="0" Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Welcome Label -->
+                <Label Text="Welcome" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Grid.Column="0"/>
+
+                <!-- Capture Image Button -->
+                <Button Text="+" Clicked="AddStoryBook" Grid.Column="1" Margin="0,0,0,0" HorizontalOptions="End"/>
+            </Grid>
+        </Frame>
+        <!-- Main Content -->
+        <StackLayout Grid.Row="1">
+            <!-- List View to display PDF files -->
+            <ListView x:Name="pdfListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

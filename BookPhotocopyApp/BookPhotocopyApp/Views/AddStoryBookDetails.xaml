@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BookPhotocopyApp.Views.AddStoryBookDetails">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Add Story Book Details" FontSize="Title" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20"/>
+
+            <Entry Placeholder="Title" x:Name="TitleEntry" />
+            <Entry Placeholder="Author" x:Name="AuthorEntry" />
+            <Entry Placeholder="Description" x:Name="DescriptionEntry" />
+            <Entry Placeholder="Publisher" x:Name="PublisherEntry" />
+
+            <Button Text="Open Camera" Clicked="OnCameraButtonClick" />
+            
+            <Button Text="Upload Cover" Clicked="OnUploadButtonClick" />
+
+            <Button Text="Save" Clicked="SaveButton_Clicked" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Margin="0,20,0,0"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

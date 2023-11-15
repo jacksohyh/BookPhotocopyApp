@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "2cqPBYvmIok36FClDvSO7jlXwoLvjmEZdjixf1QYSp8SoH2oaL82EUU/hu8/lmPIzjwA0RhPQBGRJgLaVCdP4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jacks\\Documents\\VisualStudio2022Project\\BookPhotocopyApp\\BookPhotocopyApp\\BookPhotocopyApp\\BookPhotocopyApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jacks\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\vieapps.components.utility.epub\\10.8.2310.2\\vieapps.components.utility.epub.10.8.2310.2.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.forms\\5.0.0.2622\\xamarin.forms.5.0.0.2622.nupkg.sha512"
+  ],
+  "logs": []
+}
